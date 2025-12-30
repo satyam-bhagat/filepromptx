@@ -1,56 +1,39 @@
-# FilePrompt
+# FilePromptX
 
-FilePrompt lets you select files or folders from your project and instantly generate **AI-ready prompts with full context** — perfect for debugging, explaining code, testing, or sharing entire project structures.
+FilePromptX is a Visual Studio Code extension that lets you select files or folders
+from your project and instantly generate **AI-ready prompts** with full project context.
 
----
+## Features
 
-## ✨ Features
-
-- 📂 Select files and folders visually
-- ⚡ Generate AI prompts with one click
-- 🛠️ Built-in prompts:
+- Select files and folders visually from the sidebar
+- Generate complete AI prompts with actual file contents
+- Built-in smart prompt actions:
   - Resolve Errors
   - Explain Code
-  - Debug
-  - Test Generation
+  - Debug Code
   - Send Full Project
-- 🧠 Create custom prompts
-- 🔄 Auto-select Git modified files
-- 📄 Copy prompts or save to file
+- Copy generated prompt to clipboard
+- Save prompt as a file
+- Select only Git-modified files
 
----
+## How to Use
 
-## 🚀 Usage
+1. Open Visual Studio Code
+2. Open the **FilePromptX** sidebar
+3. Select files or folders
+4. Choose a prompt action
+5. Copy or save the generated AI prompt
 
-1. Open the **FilePrompt** sidebar
-2. Select files or folders
-3. Choose a prompt
-4. Copy or save
-5. Paste into your AI tool
+## Requirements
 
----
+- Visual Studio Code **v1.85.0** or later
+- A workspace folder must be open
 
-## 📦 Requirements
+## Known Issues
 
-- VS Code `v1.85.0+`
-- Open workspace folder
+- Large projects may take longer to scan
+- Git-based features require a Git repository
 
----
+## License
 
-## 🐞 Known Issues
-
-- Large projects may load slowly
-- Git features need a Git repo
-
----
-
-## 📝 Release Notes (0.0.1)
-
-Initial release
-
----
-
-## ❤️ Enjoy
-
-Happy coding 🚀
-# filepromptx
+MIT

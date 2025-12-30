@@ -1,9 +1,12 @@
 {
   "name": "filepromptx",
   "displayName": "filepromptx",
-  "version": "0.0.1",
+  "description": "Generate AI-ready prompts from selected files and folders with full project context.",
+  "version": "0.0.2",
   "publisher": "SatyamBhagat",
    "license": "MIT",
+   "icon": "media/icon.png",
+
    "repository": {
     "type": "git",
     "url": "https://github.com/satyam-bhagat/fileprompt"
